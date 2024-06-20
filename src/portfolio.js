@@ -26,18 +26,18 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / AngularJs / Ionic and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ybBFwr4a8FjeLIqPuvxlupai-EBskEUO/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/JonatasPalumbo",
+  linkedin: "https://www.linkedin.com/in/jonataspalumbo/",
   gmail: "saadpasta70@gmail.com",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  medium: "https://medium.com/@jonataspalumbo",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -87,8 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "npm",
@@ -103,6 +103,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Microsoft Azure ",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
@@ -113,6 +117,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -180,25 +188,25 @@ const workExperiences = {
       company: "Tendências Consultoria",
       companylogo: require("./assets/images/tciLogo.jpeg"),
       date: "Jan 2016 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "With years of experience in software development and IT management, I have led diverse teams and managed complex projects to deliver innovative and high-quality technology solutions. My career is marked by the implementation of scalable architectures, the adoption of agile methodologies, and the integration of artificial intelligence into business processes. Recently, I distinguished myself by developing an AI-based advisor available on Microsoft AppSource, demonstrating my ability to drive technological innovation and add strategic value to organizations."
     },
     {
       role: "Technology and Development Consultant",
       company: "NAP Retrovírus USP",
       companylogo: require("./assets/images/napuspLogo.jpeg"),
       date: "May 2018 – Present",
-      desc: "As a Technology and Development Consultant, I translate business needs into technological solutions, develop software, manage projects using agile methodologies, and provide strategic consulting. My skills include programming, databases, leadership, and communication, helping companies improve efficiency and achieve digital transformation."
+      desc: "As a Technology and Development Consultant, I specialize in translating business needs into effective technological solutions, developing robust software, managing projects with agile methodologies, and providing strategic consulting. My diverse skill set includes advanced programming, database management, leadership, and communication, enabling me to help companies enhance efficiency and achieve seamless digital transformation."
     },
     {
       role: "Full-Stack Developer",
       company: "InWise",
       companylogo: require("./assets/images/inwiseLogo.jpg"),
       date: "Jan 2006 – fev 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Full Stack Developer, I have extensive experience in implementing and developing both front-end and back-end modules and interfaces. Utilizing technologies such as JavaScript, jQuery, CSS3, HTML5, and Photoshop, I have successfully applied agile methodologies to deliver high-quality solutions for various projects.",
+      descBullets: [
+        "Worked on platforms and software for VoIP communication used by companies such as GVT, Vono, and LocalWeb.",
+        "Ensured high-quality development and integration, contributing to the effective deployment of communication solutions."
+      ]
     }
   ]
 };
@@ -218,25 +226,37 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo_advaisor.png"),
+      projectName: "advaAIsor",
+      projectDesc: "An artificial intelligence tool (LLM-powered software) for creating, reviewing, and translating technical texts, available as an Add-In for Word.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://advaisor.com.br/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo_machina.png"),
+      projectName: "Machina REST API",
+      projectDesc: "Seamlessly access economic and social data. Efficiently query, filter, and extract data securely, simplifying time series analysis.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://api.machina.tendencias.com.br/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/logo_neon.png"),
+      projectName: "Neon Softphone",
+      projectDesc: "The ultimate VoIP communication tool, designed to help providers deliver effective solutions and enhance their service and brand.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.inwise.com.br/"
         }
       ]
     }
